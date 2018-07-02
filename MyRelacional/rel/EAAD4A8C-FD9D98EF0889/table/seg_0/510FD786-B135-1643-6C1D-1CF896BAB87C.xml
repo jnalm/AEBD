@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="510FD786-B135-1643-6C1D-1CF896BAB87C" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="POSICAO">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>POSICAO</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:46 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_POSICAO" id="67F47097-87D1-2E97-DB1B-61B6F8FF74D0">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>POSICAO</sourceObjSchema>
+<sourceObjName>ID_POSICAO</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_POSICAO" id="6DC7FFCF-6FAE-7894-C360-EA05C940A84C">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>POSICAO</sourceObjSchema>
+<sourceObjName>DESC_POSICAO</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74252536-89B8-B44E-904A-83DC4EA59018" name="POSICAO_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>POSICAO_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67F47097-87D1-2E97-DB1B-61B6F8FF74D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A973F396-2240-5421-EC33-A2C88D31906F" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="POSICAO_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>POSICAO_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67F47097-87D1-2E97-DB1B-61B6F8FF74D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

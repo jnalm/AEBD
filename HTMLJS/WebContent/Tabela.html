@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>EXEMPLO</title>
+<script type="text/javascript" src="convert.js"></script>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<body>
+	<script>
+	
+	$(document).ready(function(){
+		
+		var test = "http://echo.jsontest.com/key/value/one/two";
+    	$.getJSON(test, function (json) {
+    		var myList = JSON.stringify(json);
+    		var myJSON = "[" + myList + "]";
+    		var myFinal = JSON.parse(myJSON);
+    		buildHtmlTable('#excelDataTable', myFinal);
+    	});
+	});
+</script>
+  <table id="excelDataTable" border="1">
+  </table>
+  </body>
+</html>

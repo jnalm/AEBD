@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6A0EAF8-C35A-19F6-E8F4-5CEFA9000366" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="CARGO">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>CARGO</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:41 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CARGO" id="571439A4-1907-2E4A-6958-D5E03BDEB31C">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>CARGO</sourceObjSchema>
+<sourceObjName>ID_CARGO</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_CARGO" id="F83308A8-9B54-895C-9274-4CBDD7B9AC09">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>CARGO</sourceObjSchema>
+<sourceObjName>DESC_CARGO</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D139420-1D9B-15F1-A28C-344E37FB5A8D" name="TABLE1_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>TABLE1_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="571439A4-1907-2E4A-6958-D5E03BDEB31C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0438A223-DA1A-12D7-BF1B-7374F10346BE" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="TABLE1_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>TABLE1_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="571439A4-1907-2E4A-6958-D5E03BDEB31C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

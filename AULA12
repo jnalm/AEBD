@@ -1,0 +1,85 @@
+-- 5
+
+use mycustomers
+
+-- 6
+
+db.createUser({user: "aebd", pwd: "123", roles: ["ReadWrite", "dbAdmin"]})
+
+-- 8 
+
+db.createCollection('customers')
+
+-- 9 
+
+show collections
+
+-- 10
+
+db.customers.insert({first_name: "John", last_name: "Doe", age: 30})
+
+-- 11
+
+db.customers.insert([{first_name: "Steven", last_name: "Williams", gender: male},{first_name: "Mary", last_name: "Troy", age: 19}])
+
+-- 12
+
+db.customers.insert({first_name: "Ric", last_name: "Foe	", address: {street: "4 main st", city: "Boston"}})
+
+-- 13
+
+db.customers.insert({first_name: "Ana", last_name: "Durant", education: ["phD", "Msc"], address: {street: "4 square Garden", city: "New York City"}, age: 32})
+
+-- 14
+
+db.customers.insert({first_name: "Natalia", last_name: "Will", age: 44, gender: "female"})
+
+-- 15
+
+db.customers.find()
+
+-- 16
+
+db.customers.find().pretty()
+
+-- 17
+
+db.customers.update({first_name: {$eq: "Ric"}}, {$set: {age: 45}}, {multi: true})
+
+-- 18
+
+db.customers.update({first_name: {$eq: "Ric"}}, {$set: {age: 55}}, {multi: true})
+
+-- 19
+
+db.customers.update({first_name: {$eq: "Ric"}}, {$inc: {age: 10}}, {multi: true})
+
+-- 20
+
+db.customers.update({first_name: {$eq: "Ric"}}, {$unset: {age: 1}}, {multi: true})
+
+-- 21
+
+db.customers.find({first_name: "Jimy"})
+db.customers.insert({first_name: "Jimy"})
+db.customers.update({first_name: {$eq: "Jimy"}}, {$set: {first_name: "Jimmy", last_name: "Connors", age: 25, gender: "male"}}, {multi: true})
+
+-- 22
+
+db.customers.find({age: {$gt: 25}}).pretty()
+
+-- 23
+
+db.customers.find({gender: {$eq: "male"}}).pretty()
+
+-- 24
+
+db.customers.remove({first_name: "Mary"}, {justOne: true})
+
+-- 25
+
+db.customers.find({$or: [{first_name: "Ana"}, {first_name: "Ric"}]}).pretty()
+
+-- 26
+
+db.customers.find({last_name: "Will"}).pretty()

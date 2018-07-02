@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CLUBE" directorySegmentName="seg_0" id="26297FBD-9C26-9A7D-3B95-6742C2E71C94">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:42 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<schemaObject>21E92988-AE88-1EB1-CB67-A92051301AE4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F0CC434-C71C-D483-E7D8-63729E71F637</segment>
+<tableSpace>066469EF-BF44-05B0-8752-B24912ABD530</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_LIGA" id="1F39C834-A638-CFF1-8CEB-78ACADF39F1C">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANO_FUNDACAO" id="30DE5892-88CF-6AF7-9DAE-EFC85B722E80">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CLUBE" id="6D0772A8-DD35-0BF9-8F8F-61AF537A81BD">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CIDADE" id="A190D867-7CC3-E133-3F3D-1FDA1FC79AB1">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="B4C4AA29-69A3-A8A0-E161-702800F240F7">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CLUBE_PK" id="E3576D2C-DC43-E0AF-2401-8FE8A9359A40">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<schemaObject>21E92988-AE88-1EB1-CB67-A92051301AE4</schemaObject>
+<segment>156C21AE-89A5-6254-2680-761A5B7C5447</segment>
+<tableSpace>066469EF-BF44-05B0-8752-B24912ABD530</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLUBE_FK1" id="7FEA3868-8DD3-8577-13A4-50A6350C5638">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CLUBE_PK" id="088C652B-3EB6-382F-9718-3E7FDC3C7C46">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<segment>156C21AE-89A5-6254-2680-761A5B7C5447</segment>
+<tableSpace>066469EF-BF44-05B0-8752-B24912ABD530</tableSpace>
+<existingIndex>E3576D2C-DC43-E0AF-2401-8FE8A9359A40</existingIndex>
+<indexSegment>156C21AE-89A5-6254-2680-761A5B7C5447</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

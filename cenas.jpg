@@ -1,0 +1,109 @@
+SELECT USERNAME FROM ALL_USERS WHERE USER_ID = 8;
+
+create tablespace aebd_project
+datafile '\u01\app\oracle\oradata\orcl12\orcl\aebd_project_01.dbf'
+size 100M;
+
+create tablespace paulinho datafile '\u01\app\oracle\oradata\orcl12\orcl\paulinho.dbf' size 100M;
+
+create tablespace paulinho datafile '\u01\app\oracle\oradata\orcl12\orcl\paulinho.dbf' size 100M;
+
+create temporary tablespace aebd_project_temp
+tempfile '\u01\app\oracle\oradata\orcl12\orcl\aebd_project_temp.dbf'
+size 50M
+autoextend on;
+
+select * from dba_tablespaces;
+
+alter session set "_ORACLE_SCRIPT"=true; 
+
+create user Bruno
+identified by 1234
+default tablespace aebd_project
+temporary tablespace aebd_project_temp
+quota 10M on aebd_project
+account unlock;
+
+grant connect to Bruno;
+
+create user Luis
+identified by 1234
+default tablespace aebd_project
+temporary tablespace aebd_project_temp
+quota 10M on aebd_project
+account unlock;
+
+grant connect to Luis;
+
+create user Maria
+identified by 1234
+default tablespace aebd_project
+temporary tablespace aebd_project_temp
+quota 10M on aebd_project
+account unlock;
+
+grant connect to Maria;
+
+
+create user joao
+identified by 1234
+default tablespace aebd_project
+temporary tablespace aebd_project_temp
+quota 10M on aebd_project
+account unlock;
+
+grant connect to joao;
+
+select *  from dba_users;
+
+
+select * from dba_cpu_usage_statistics;
+
+select * from system_priv
+
+grant create table, create view, create trigger to Luis;
+
+grant drop any table to luis;
+
+grant create sequence to bruno, maria, luis, joao;
+
+grant create trigger to bruno, maria, luis, joao;
+
+GRANT UNLIMITED TABLESPACE TO bruno;
+
+DROP TABLE ALFO;
+
+SELECT * FROM v$session
+WHERE USERNAME IS NOT NULL;
+
+select sesion.sid,
+       sesion.username,
+       optimizer_mode,
+       hash_value,
+       address,
+       cpu_time,
+       elapsed_time,
+       sql_text
+  from v$sqlarea sqlarea, v$session sesion
+ where sesion.sql_hash_value = sqlarea.hash_value
+   and sesion.sql_address    = sqlarea.address
+   and sesion.username is not null;
+   
+   
+   
+SELECT
+  *
+FROM
+  DBA_SYS_PRIVS;
+   
+SELECT
+  *
+FROM
+  DBA_TAB_PRIVS;
+
+
+SELECT
+  *
+FROM
+  DBA_CPU_USAGE_STATISTICS;
+

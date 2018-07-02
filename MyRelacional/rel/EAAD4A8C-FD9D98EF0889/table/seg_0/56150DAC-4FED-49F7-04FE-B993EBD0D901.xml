@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56150DAC-4FED-49F7-04FE-B993EBD0D901" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="PATROCINADOR">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>PATROCINADOR</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:45 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PATROCINADOR" id="FC7D3153-2E39-D110-5403-0B6607C82E66">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>PATROCINADOR</sourceObjSchema>
+<sourceObjName>ID_PATROCINADOR</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="2CA81E88-B1D2-4B13-7ECF-76FF883F7A3C">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>PATROCINADOR</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTANTE" id="BEF8FBA3-56AA-11B4-A1A3-F3E285260728">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>PATROCINADOR</sourceObjSchema>
+<sourceObjName>MONTANTE</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD5A1C8A-9997-9285-2F09-C445A417E68B" name="PATROCINADOR_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>PATROCINADOR_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC7D3153-2E39-D110-5403-0B6607C82E66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1BAA50F-99E0-95FA-770C-70D9D7362B2A" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="PATROCINADOR_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>PATROCINADOR_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC7D3153-2E39-D110-5403-0B6607C82E66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

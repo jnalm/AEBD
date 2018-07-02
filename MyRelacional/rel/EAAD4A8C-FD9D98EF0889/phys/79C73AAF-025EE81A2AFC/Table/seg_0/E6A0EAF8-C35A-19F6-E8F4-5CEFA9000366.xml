@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CARGO" directorySegmentName="seg_0" id="E6A0EAF8-C35A-19F6-E8F4-5CEFA9000366">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:41 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<schemaObject>21E92988-AE88-1EB1-CB67-A92051301AE4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F0CC434-C71C-D483-E7D8-63729E71F637</segment>
+<tableSpace>066469EF-BF44-05B0-8752-B24912ABD530</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_CARGO" id="571439A4-1907-2E4A-6958-D5E03BDEB31C">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESC_CARGO" id="F83308A8-9B54-895C-9274-4CBDD7B9AC09">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TABLE1_PK" id="0438A223-DA1A-12D7-BF1B-7374F10346BE">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<schemaObject>21E92988-AE88-1EB1-CB67-A92051301AE4</schemaObject>
+<segment>156C21AE-89A5-6254-2680-761A5B7C5447</segment>
+<tableSpace>066469EF-BF44-05B0-8752-B24912ABD530</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TABLE1_PK" id="8D139420-1D9B-15F1-A28C-344E37FB5A8D">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<segment>156C21AE-89A5-6254-2680-761A5B7C5447</segment>
+<tableSpace>066469EF-BF44-05B0-8752-B24912ABD530</tableSpace>
+<existingIndex>0438A223-DA1A-12D7-BF1B-7374F10346BE</existingIndex>
+<indexSegment>156C21AE-89A5-6254-2680-761A5B7C5447</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

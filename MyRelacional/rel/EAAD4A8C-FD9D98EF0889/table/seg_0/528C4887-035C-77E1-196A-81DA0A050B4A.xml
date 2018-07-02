@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="528C4887-035C-77E1-196A-81DA0A050B4A" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="LIGA">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>LIGA</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:44 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LIGA" id="1C715B26-60D4-6077-F1C2-B7B6ABF19D75">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>LIGA</sourceObjSchema>
+<sourceObjName>ID_LIGA</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="31F75A00-85C7-8983-0A91-B3D6F7DD5508">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>LIGA</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANO_FUNDACAO" id="138985D9-042D-E183-E60C-01F291B931E4">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>LIGA</sourceObjSchema>
+<sourceObjName>ANO_FUNDACAO</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PATROCINADOR" id="4C7031C8-D8ED-146B-DDF7-9BC74926AE6E">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>LIGA</sourceObjSchema>
+<sourceObjName>ID_PATROCINADOR</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C7A2275-AA3E-3F0A-5EF5-C868BBF9989A" referredColumn="FC7D3153-2E39-D110-5403-0B6607C82E66"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41E20497-6B67-E09F-9E42-DEC52A1697DC" name="LIGA_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>LIGA_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C715B26-60D4-6077-F1C2-B7B6ABF19D75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD2447E7-FAAD-93ED-75FE-372C2B3BA6CF" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="LIGA_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>LIGA_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C715B26-60D4-6077-F1C2-B7B6ABF19D75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5215B65E-A970-651C-804E-73400BE66305" name="LIGA_FK1">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C7031C8-D8ED-146B-DDF7-9BC74926AE6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

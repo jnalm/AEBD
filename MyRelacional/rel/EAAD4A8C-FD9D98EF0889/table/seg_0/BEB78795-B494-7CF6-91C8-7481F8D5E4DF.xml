@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEB78795-B494-7CF6-91C8-7481F8D5E4DF" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="JOGADOR">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>JOGADOR</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:43 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_JOGADOR" id="38A89509-78E3-28A1-62E5-062E4554790C">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOGADOR</sourceObjSchema>
+<sourceObjName>ID_JOGADOR</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="3F8C8586-C70C-53BE-1600-DC0071265BBE">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOGADOR</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDADE" id="CD86C59C-AF74-90C2-90A1-059FF5AFD9C4">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOGADOR</sourceObjSchema>
+<sourceObjName>IDADE</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CIDADE" id="B8801A11-99E9-A7D8-88C5-691974D072BD">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOGADOR</sourceObjSchema>
+<sourceObjName>ID_CIDADE</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_POSICAO" id="A26F1140-A2AF-3E45-C0DA-45314315BCCD">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOGADOR</sourceObjSchema>
+<sourceObjName>ID_POSICAO</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74DFB6C4-377D-0FD4-4DE2-FDAE8687EC99" referredColumn="67F47097-87D1-2E97-DB1B-61B6F8FF74D0"/>
+</associations>
+</Column>
+<Column name="ID_CLUBE" id="3093F9E1-E583-2A37-41D1-5145FACC7E90">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOGADOR</sourceObjSchema>
+<sourceObjName>ID_CLUBE</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC8AAAAD-C43A-529C-6D95-AD4F383E7913" referredColumn="6D0772A8-DD35-0BF9-8F8F-61AF537A81BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="750225A3-0C68-7EFE-EA7D-804FDBE7DF8F" name="JOGADOR_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>JOGADOR_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38A89509-78E3-28A1-62E5-062E4554790C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3739A60C-90A0-0B79-F54F-E937A3041507" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="JOGADOR_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>JOGADOR_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38A89509-78E3-28A1-62E5-062E4554790C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8703666-D702-A9FA-A44B-368C24F72C36" name="JOGADOR_FK1">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3093F9E1-E583-2A37-41D1-5145FACC7E90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF055235-DD70-F6CA-5410-6033B4D869A0" name="JOGADOR_FK2">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A26F1140-A2AF-3E45-C0DA-45314315BCCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

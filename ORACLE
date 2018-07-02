@@ -1,0 +1,12 @@
+
+
+CREATE TABLE CPU
+( idCPU number(10) NOT NULL,
+  DBID varchar2(50) NULL,
+  CPU_CORE_COUNT, varchar2(50) NULL,
+  TimeStamp, varchar2(50) NULL,
+  CONSTRAINT employees_pk PRIMARY KEY (employee_number),
+  CONSTRAINT fk_departments
+    FOREIGN KEY (department_id)
+    REFERENCES departments(department_id)
+);

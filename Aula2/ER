@@ -1,0 +1,3 @@
+ENTIDADES
+
+FUNCIONÁRIO (ID*, Salário, DataAdmissão, Email, Nome(Primeiro, Último))

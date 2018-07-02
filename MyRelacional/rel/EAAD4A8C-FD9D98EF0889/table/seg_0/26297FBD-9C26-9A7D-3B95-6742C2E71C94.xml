@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26297FBD-9C26-9A7D-3B95-6742C2E71C94" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="CLUBE">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>CLUBE</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:42 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLUBE" id="6D0772A8-DD35-0BF9-8F8F-61AF537A81BD">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>CLUBE</sourceObjSchema>
+<sourceObjName>ID_CLUBE</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="B4C4AA29-69A3-A8A0-E161-702800F240F7">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>CLUBE</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANO_FUNDACAO" id="30DE5892-88CF-6AF7-9DAE-EFC85B722E80">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>CLUBE</sourceObjSchema>
+<sourceObjName>ANO_FUNDACAO</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE" id="A190D867-7CC3-E133-3F3D-1FDA1FC79AB1">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>CLUBE</sourceObjSchema>
+<sourceObjName>CIDADE</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LIGA" id="1F39C834-A638-CFF1-8CEB-78ACADF39F1C">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>CLUBE</sourceObjSchema>
+<sourceObjName>ID_LIGA</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56CA8009-B29B-5CFD-FB7F-40999A18C1B7" referredColumn="1C715B26-60D4-6077-F1C2-B7B6ABF19D75"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="088C652B-3EB6-382F-9718-3E7FDC3C7C46" name="CLUBE_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>CLUBE_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D0772A8-DD35-0BF9-8F8F-61AF537A81BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3576D2C-DC43-E0AF-2401-8FE8A9359A40" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="CLUBE_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>CLUBE_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D0772A8-DD35-0BF9-8F8F-61AF537A81BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FEA3868-8DD3-8577-13A4-50A6350C5638" name="CLUBE_FK1">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F39C834-A638-CFF1-8CEB-78ACADF39F1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F90F17DF-3817-F690-2902-6BE0C41EDE5A" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="TREINADOR">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>TREINADOR</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TREINADOR" id="7D68EB26-5A4B-13C4-C6E2-2F51F29CBFAD">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>TREINADOR</sourceObjSchema>
+<sourceObjName>ID_TREINADOR</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="B421BE73-29FA-F88E-1D5B-086525339853">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>TREINADOR</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CARGO" id="7DE9AEB6-6A7A-24D6-6945-30969551EAF0">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>TREINADOR</sourceObjSchema>
+<sourceObjName>ID_CARGO</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F23CBC4-831D-5220-C200-C73B164163DE" referredColumn="571439A4-1907-2E4A-6958-D5E03BDEB31C"/>
+</associations>
+</Column>
+<Column name="ID_CLUBE" id="DE7E1A11-74EB-AD85-C8DE-9787C04F4109">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>TREINADOR</sourceObjSchema>
+<sourceObjName>ID_CLUBE</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:47 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8621FD2-BF52-17B0-3400-9B0D51C0EBA1" referredColumn="6D0772A8-DD35-0BF9-8F8F-61AF537A81BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34CD6E9E-9880-0364-B028-1C612E83AECD" name="TREINADOR_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>TREINADOR_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D68EB26-5A4B-13C4-C6E2-2F51F29CBFAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AA63CBA-48ED-0981-3F3E-074E286909E9" schemaObject="21E92988-AE88-1EB1-CB67-A92051301AE4" name="TREINADOR_PK">
+<sourceConnName>MyUserConnection</sourceConnName>
+<sourceObjSchema>JOAONA</sourceObjSchema>
+<sourceObjName>TREINADOR_PK</sourceObjName>
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D68EB26-5A4B-13C4-C6E2-2F51F29CBFAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA6F7120-186F-6A7C-AE33-B2B53E911E2C" name="TREINADOR_FK1">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DE9AEB6-6A7A-24D6-6945-30969551EAF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CD0901A-5394-DCA6-685B-D6F66DFA0799" name="TREINADOR_FK2">
+<createdBy>JoãoNuno</createdBy>
+<createdTime>2017-10-27 09:46:48 UTC</createdTime>
+<ownerDesignName>MyRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE7E1A11-74EB-AD85-C8DE-9787C04F4109"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
